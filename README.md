@@ -1,4 +1,4 @@
-PredictPPI (k-defective clique based missing-edge prediction)
+predictPPI
 =============================================================
 
 This prototype predicts missing protein-protein interactions (PPIs) by:
