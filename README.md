@@ -24,18 +24,18 @@ YDR362C
 
 Usage
 -----
-From the repository root:
+From the repository:
 
 ```
-python predictPPI/predictPPI.py predictPPI/PPI/edgelist.txt 2 5 predictPPI/PPI/mapping.txt
+python3 predictPPI.py PPI/edgelist.txt PPI/mapping.txt 1 11 
 ```
 
 Arguments
 ---------
 - `ppi_edgelist`: PPI network edgelist
+- `mapping`: mapping file (line i -> protein name for node i)
 - `k`: allowed number of missing edges per clique
 - `q`: minimum clique size
-- `mapping`: mapping file (line i -> protein name for node i)
 
 Optional flags
 --------------
