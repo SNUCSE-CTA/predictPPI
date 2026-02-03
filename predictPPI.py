@@ -82,7 +82,7 @@ def main():
   args = parser.parse_args()
 
   script_dir = os.path.dirname(os.path.abspath(__file__))
-  repo_dir = os.path.abspath(os.path.join(script_dir, ".."))
+  repo_dir = os.path.abspath(os.path.join(script_dir, "."))
   home = script_dir
   os.system(f"mkdir -p {home}/tmp")
   res_path = f"{home}/tmp/res.txt"
